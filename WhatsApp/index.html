@@ -1,23 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Home</title>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://use.fontawesome.com/dd9be8a240.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>whatsapp</title>
   </head>
   <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
+    <container id="main">
+      <div class="inner-box">
+        <h3>WhatsApp</h3>
+        <!---icon start-->
+        <div class="icon">
+          <i class="fa fa-search" aria-hidden="true"></i>
+          <i class="fa-solid fa-ellipsis-vertical" aria-hidden="true"></i>
+        </div>
+        <!--icon end-->
+        <div class="inner-bottom">
+          <ul>
+            <li><i class="fa fa-camera" aria-hidden="true"></i></li>
+            <li><a href="#">chats</a></li>
+            <li><a href="#">status</a></li>
+            <li><a href="#">calls</a></li>
+          </ul>
+        </div>
+        <!--inner-bottom end-->
+      </div>
+      <!--inner-box end-->
+      <div id="chat-section">
+        <div class="user">
+          <div class="user-icon">
+            <img src="images/IMG-20201209-WA0002.jpg" />
+          </div>
+          <p>Shaban</p>
+          <p2 style="position: relatiuve; top: 7%">hello</p2>
+          <span>11:05 am</span>
+        </div>
+        <div class="user">
+          <div class="user-icon">
+            <img src="images/IMG-20210111-WA0018.jpeg" />
+          </div>
+          <p>shuaibu</p>
+          <p2 style="position: relatiuve">ok sure</p2>
+          <span>05:05 pm</span>
+        </div>
+        <div class="user">
+          <div class="user-icon">
+            <img src="images/IMG-20210112-WA0000.jpg" />
+          </div>
+          <p>Neema</p>
+          <p2 style="position: relatiuve">i'll call you later</p2>
+          <span>07:00 pm</span>
+        </div>
+        <div class="user">
+          <div class="user-icon">
+            <img src="/images/IMG-20210203-WA0001.jpg" />
+          </div>
+          <p>Shaban2</p>
+          <p2 style="position: relatiuve">ready for meeting brother</p2>
+          <span>03:05 am</span>
+        </div>
+        <div class="user">
+          <div class="user-icon">
+            <img src="/images/IMG-20210316-WA0002.jpg" />
+          </div>
+          <p>Zubaida</p>
+          <p2 style="position: relatiuve">hows u</p2>
+          <span>05:25 pm</span>
+        </div>
+        <div class="user">
+          <div class="user-icon">
+            <img src="images/IMG-20211224-WA0011.jpg" />
+          </div>
+          <p>Suleiman</p>
+          <p2 style="position: relatiuve">no</p2>
+          <span>04:15 pm</span>
+        </div>
+        <div class="user">
+          <div class="user-icon">
+            <img src="images/IMG_20180822_114404.jpg" />
+          </div>
+          <p>Rukayyah</p>
+          <i class="fa-solid fa-check-double" aria-hidden="true"></i>
+          <p2 style="position: relatiuve">on monday</p2>
+          <span>12:05 pm</span>
+        </div>
+      </div>
+      <!--chat session end-->
+      <div class="contact">
+        <img src="/images/message.jpg" />
+      </div>
+    </container>
+    <!--conatiner main end-->
   </body>
 </html>
